@@ -29,26 +29,26 @@ public class BuscarComprobante extends javax.swing.JInternalFrame {
         jScrollPane1 = new javax.swing.JScrollPane();
         jTable1 = new javax.swing.JTable();
         jPanel1 = new javax.swing.JPanel();
-        jTextField1 = new javax.swing.JTextField();
-        jButton1 = new javax.swing.JButton();
+        txtnumerofactura = new javax.swing.JTextField();
+        btnbuscarfactura = new javax.swing.JButton();
         jLabel1 = new javax.swing.JLabel();
-        jLabel2 = new javax.swing.JLabel();
+        lbnumerofactura = new javax.swing.JLabel();
         jLabel3 = new javax.swing.JLabel();
-        jLabel4 = new javax.swing.JLabel();
+        lbfechaventa = new javax.swing.JLabel();
         jPanel2 = new javax.swing.JPanel();
         jLabel5 = new javax.swing.JLabel();
         jLabel6 = new javax.swing.JLabel();
         jLabel7 = new javax.swing.JLabel();
-        jLabel8 = new javax.swing.JLabel();
-        jLabel9 = new javax.swing.JLabel();
-        jLabel10 = new javax.swing.JLabel();
+        lbnombrecliente = new javax.swing.JLabel();
+        lbappaterno = new javax.swing.JLabel();
+        lbappmaterno = new javax.swing.JLabel();
         jLabel11 = new javax.swing.JLabel();
         jScrollPane2 = new javax.swing.JScrollPane();
-        jTable2 = new javax.swing.JTable();
+        tbproductos = new javax.swing.JTable();
         jLabel12 = new javax.swing.JLabel();
-        jLabel13 = new javax.swing.JLabel();
+        lbiva = new javax.swing.JLabel();
         jLabel14 = new javax.swing.JLabel();
-        jLabel15 = new javax.swing.JLabel();
+        lbtotal = new javax.swing.JLabel();
 
         jTable1.setModel(new javax.swing.table.DefaultTableModel(
             new Object [][] {
@@ -65,7 +65,7 @@ public class BuscarComprobante extends javax.swing.JInternalFrame {
 
         jPanel1.setBorder(javax.swing.BorderFactory.createTitledBorder("IngresarNúmeroFactura"));
 
-        jButton1.setText("Buscar");
+        btnbuscarfactura.setText("Buscar");
 
         javax.swing.GroupLayout jPanel1Layout = new javax.swing.GroupLayout(jPanel1);
         jPanel1.setLayout(jPanel1Layout);
@@ -73,9 +73,9 @@ public class BuscarComprobante extends javax.swing.JInternalFrame {
             jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
             .addGroup(jPanel1Layout.createSequentialGroup()
                 .addContainerGap()
-                .addComponent(jTextField1, javax.swing.GroupLayout.PREFERRED_SIZE, 331, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addComponent(txtnumerofactura, javax.swing.GroupLayout.PREFERRED_SIZE, 331, javax.swing.GroupLayout.PREFERRED_SIZE)
                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, 57, Short.MAX_VALUE)
-                .addComponent(jButton1)
+                .addComponent(btnbuscarfactura)
                 .addContainerGap())
         );
         jPanel1Layout.setVerticalGroup(
@@ -83,21 +83,21 @@ public class BuscarComprobante extends javax.swing.JInternalFrame {
             .addGroup(jPanel1Layout.createSequentialGroup()
                 .addGap(18, 18, 18)
                 .addGroup(jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
-                    .addComponent(jTextField1, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
-                    .addComponent(jButton1))
+                    .addComponent(txtnumerofactura, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+                    .addComponent(btnbuscarfactura))
                 .addContainerGap(45, Short.MAX_VALUE))
         );
 
         jLabel1.setFont(new java.awt.Font("Arial Narrow", 3, 14)); // NOI18N
         jLabel1.setText("Factura: No");
 
-        jLabel2.setText("----");
+        lbnumerofactura.setText("----");
 
         jLabel3.setFont(new java.awt.Font("Arial Narrow", 3, 14)); // NOI18N
         jLabel3.setText("FechaVenta:");
 
-        jLabel4.setFont(new java.awt.Font("Arial Narrow", 3, 14)); // NOI18N
-        jLabel4.setText("----");
+        lbfechaventa.setFont(new java.awt.Font("Arial Narrow", 3, 14)); // NOI18N
+        lbfechaventa.setText("----");
 
         jPanel2.setBorder(javax.swing.BorderFactory.createTitledBorder("DatosCliente"));
 
@@ -110,11 +110,11 @@ public class BuscarComprobante extends javax.swing.JInternalFrame {
         jLabel7.setFont(new java.awt.Font("Arial Narrow", 3, 14)); // NOI18N
         jLabel7.setText("Appmaterno");
 
-        jLabel8.setText("----");
+        lbnombrecliente.setText("----");
 
-        jLabel9.setText("----");
+        lbappaterno.setText("----");
 
-        jLabel10.setText("----");
+        lbappmaterno.setText("----");
 
         javax.swing.GroupLayout jPanel2Layout = new javax.swing.GroupLayout(jPanel2);
         jPanel2.setLayout(jPanel2Layout);
@@ -123,20 +123,20 @@ public class BuscarComprobante extends javax.swing.JInternalFrame {
             .addGroup(jPanel2Layout.createSequentialGroup()
                 .addGap(13, 13, 13)
                 .addGroup(jPanel2Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.TRAILING, false)
-                    .addComponent(jLabel8, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+                    .addComponent(lbnombrecliente, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
                     .addComponent(jLabel5, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
                 .addGap(196, 196, 196)
                 .addGroup(jPanel2Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
                     .addComponent(jLabel6)
                     .addGroup(jPanel2Layout.createSequentialGroup()
                         .addGap(15, 15, 15)
-                        .addComponent(jLabel9)))
+                        .addComponent(lbappaterno)))
                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
                 .addGroup(jPanel2Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
                     .addComponent(jLabel7)
                     .addGroup(jPanel2Layout.createSequentialGroup()
                         .addGap(6, 6, 6)
-                        .addComponent(jLabel10)))
+                        .addComponent(lbappmaterno)))
                 .addGap(34, 34, 34))
         );
         jPanel2Layout.setVerticalGroup(
@@ -149,15 +149,15 @@ public class BuscarComprobante extends javax.swing.JInternalFrame {
                     .addComponent(jLabel7))
                 .addGap(6, 6, 6)
                 .addGroup(jPanel2Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
-                    .addComponent(jLabel8)
-                    .addComponent(jLabel9)
-                    .addComponent(jLabel10))
+                    .addComponent(lbnombrecliente)
+                    .addComponent(lbappaterno)
+                    .addComponent(lbappmaterno))
                 .addContainerGap(64, Short.MAX_VALUE))
         );
 
         jLabel11.setText("Productos");
 
-        jTable2.setModel(new javax.swing.table.DefaultTableModel(
+        tbproductos.setModel(new javax.swing.table.DefaultTableModel(
             new Object [][] {
                 {},
                 {},
@@ -168,19 +168,19 @@ public class BuscarComprobante extends javax.swing.JInternalFrame {
 
             }
         ));
-        jScrollPane2.setViewportView(jTable2);
+        jScrollPane2.setViewportView(tbproductos);
 
         jLabel12.setFont(new java.awt.Font("Arial Narrow", 1, 14)); // NOI18N
         jLabel12.setText("IVA:");
 
-        jLabel13.setFont(new java.awt.Font("Arial Narrow", 1, 14)); // NOI18N
-        jLabel13.setText("---");
+        lbiva.setFont(new java.awt.Font("Arial Narrow", 1, 14)); // NOI18N
+        lbiva.setText("---");
 
         jLabel14.setFont(new java.awt.Font("Arial Narrow", 1, 14)); // NOI18N
         jLabel14.setText("Total");
 
-        jLabel15.setFont(new java.awt.Font("Arial Narrow", 1, 14)); // NOI18N
-        jLabel15.setText("---");
+        lbtotal.setFont(new java.awt.Font("Arial Narrow", 1, 14)); // NOI18N
+        lbtotal.setText("---");
 
         javax.swing.GroupLayout layout = new javax.swing.GroupLayout(getContentPane());
         getContentPane().setLayout(layout);
@@ -190,11 +190,11 @@ public class BuscarComprobante extends javax.swing.JInternalFrame {
                 .addGap(14, 14, 14)
                 .addComponent(jLabel1)
                 .addGap(30, 30, 30)
-                .addComponent(jLabel2)
+                .addComponent(lbnumerofactura)
                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
                 .addComponent(jLabel3)
                 .addGap(53, 53, 53)
-                .addComponent(jLabel4)
+                .addComponent(lbfechaventa)
                 .addGap(103, 103, 103))
             .addGroup(layout.createSequentialGroup()
                 .addContainerGap()
@@ -221,10 +221,10 @@ public class BuscarComprobante extends javax.swing.JInternalFrame {
                 .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
                     .addGroup(layout.createSequentialGroup()
                         .addGap(18, 18, 18)
-                        .addComponent(jLabel13))
+                        .addComponent(lbiva))
                     .addGroup(layout.createSequentialGroup()
                         .addGap(9, 9, 9)
-                        .addComponent(jLabel15)))
+                        .addComponent(lbtotal)))
                 .addGap(40, 40, 40))
         );
         layout.setVerticalGroup(
@@ -234,9 +234,9 @@ public class BuscarComprobante extends javax.swing.JInternalFrame {
                 .addGap(18, 18, 18)
                 .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
                     .addComponent(jLabel1)
-                    .addComponent(jLabel2)
+                    .addComponent(lbnumerofactura)
                     .addComponent(jLabel3)
-                    .addComponent(jLabel4))
+                    .addComponent(lbfechaventa))
                 .addGap(30, 30, 30)
                 .addComponent(jPanel2, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
@@ -246,11 +246,11 @@ public class BuscarComprobante extends javax.swing.JInternalFrame {
                 .addGap(69, 69, 69)
                 .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
                     .addComponent(jLabel12)
-                    .addComponent(jLabel13))
+                    .addComponent(lbiva))
                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
                 .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
                     .addComponent(jLabel14)
-                    .addComponent(jLabel15))
+                    .addComponent(lbtotal))
                 .addGap(0, 146, Short.MAX_VALUE))
         );
 
@@ -259,28 +259,28 @@ public class BuscarComprobante extends javax.swing.JInternalFrame {
 
 
     // Variables declaration - do not modify//GEN-BEGIN:variables
-    private javax.swing.JButton jButton1;
+    private javax.swing.JButton btnbuscarfactura;
     private javax.swing.JLabel jLabel1;
-    private javax.swing.JLabel jLabel10;
     private javax.swing.JLabel jLabel11;
     private javax.swing.JLabel jLabel12;
-    private javax.swing.JLabel jLabel13;
     private javax.swing.JLabel jLabel14;
-    private javax.swing.JLabel jLabel15;
-    private javax.swing.JLabel jLabel2;
     private javax.swing.JLabel jLabel3;
-    private javax.swing.JLabel jLabel4;
     private javax.swing.JLabel jLabel5;
     private javax.swing.JLabel jLabel6;
     private javax.swing.JLabel jLabel7;
-    private javax.swing.JLabel jLabel8;
-    private javax.swing.JLabel jLabel9;
     private javax.swing.JPanel jPanel1;
     private javax.swing.JPanel jPanel2;
     private javax.swing.JScrollPane jScrollPane1;
     private javax.swing.JScrollPane jScrollPane2;
     private javax.swing.JTable jTable1;
-    private javax.swing.JTable jTable2;
-    private javax.swing.JTextField jTextField1;
+    private javax.swing.JLabel lbappaterno;
+    private javax.swing.JLabel lbappmaterno;
+    private javax.swing.JLabel lbfechaventa;
+    private javax.swing.JLabel lbiva;
+    private javax.swing.JLabel lbnombrecliente;
+    private javax.swing.JLabel lbnumerofactura;
+    private javax.swing.JLabel lbtotal;
+    private javax.swing.JTable tbproductos;
+    private javax.swing.JTextField txtnumerofactura;
     // End of variables declaration//GEN-END:variables
 }
