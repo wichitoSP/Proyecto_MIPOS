@@ -127,9 +127,9 @@ public class MenuPrincipal extends javax.swing.JFrame {
     }//GEN-LAST:event_jMenu1ActionPerformed
 
     private void jMenu1MouseClicked(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_jMenu1MouseClicked
-          //vistas.Ventas objetoVentas = new vistas.Ventas();
-       //panelformularios.add(objetoVentas);
-       //objetoVentas.setVisible(true);
+          vistas.Ventas objetoVentas = new vistas.Ventas();
+       panelformularios.add(objetoVentas);
+       objetoVentas.setVisible(true);
     }//GEN-LAST:event_jMenu1MouseClicked
 
     /**
