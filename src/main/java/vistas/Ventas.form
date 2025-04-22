@@ -40,7 +40,7 @@
                       <Component id="jPanel2" max="32767" attributes="0"/>
                   </Group>
               </Group>
-              <EmptySpace max="32767" attributes="0"/>
+              <EmptySpace pref="37" max="32767" attributes="0"/>
           </Group>
       </Group>
     </DimensionLayout>
@@ -58,12 +58,9 @@
                       <EmptySpace min="-2" pref="27" max="-2" attributes="0"/>
                       <Component id="jPanel4" min="-2" max="-2" attributes="0"/>
                   </Group>
-                  <Group type="102" alignment="0" attributes="0">
-                      <EmptySpace type="separate" max="-2" attributes="0"/>
-                      <Component id="jPanel3" min="-2" max="-2" attributes="0"/>
-                  </Group>
+                  <Component id="jPanel3" alignment="0" min="-2" max="-2" attributes="0"/>
               </Group>
-              <EmptySpace pref="16" max="32767" attributes="0"/>
+              <EmptySpace max="32767" attributes="0"/>
               <Component id="jPanel6" min="-2" max="-2" attributes="0"/>
               <EmptySpace min="-2" pref="148" max="-2" attributes="0"/>
           </Group>
@@ -184,7 +181,7 @@
                           <Component id="txtbuscarproductos" min="-2" pref="390" max="-2" attributes="0"/>
                       </Group>
                   </Group>
-                  <EmptySpace max="32767" attributes="0"/>
+                  <EmptySpace pref="457" max="32767" attributes="0"/>
               </Group>
           </Group>
         </DimensionLayout>
@@ -557,68 +554,65 @@
                   <Component id="lbsultimafacturacreada" min="-2" pref="35" max="-2" attributes="0"/>
                   <EmptySpace max="32767" attributes="0"/>
                   <Component id="jLabel17" min="-2" max="-2" attributes="0"/>
-                  <EmptySpace max="-2" attributes="0"/>
+                  <EmptySpace min="-2" pref="31" max="-2" attributes="0"/>
                   <Component id="btnelimnarresumenventa" min="-2" max="-2" attributes="0"/>
-                  <EmptySpace min="-2" pref="162" max="-2" attributes="0"/>
+                  <EmptySpace min="-2" pref="137" max="-2" attributes="0"/>
               </Group>
               <Group type="102" alignment="1" attributes="0">
+                  <EmptySpace min="-2" pref="48" max="-2" attributes="0"/>
+                  <Component id="btncobrar" min="-2" pref="242" max="-2" attributes="0"/>
                   <Group type="103" groupAlignment="0" attributes="0">
-                      <Group type="102" alignment="1" attributes="0">
+                      <Group type="102" attributes="0">
                           <EmptySpace max="32767" attributes="0"/>
                           <Component id="jLabel18" min="-2" max="-2" attributes="0"/>
                           <EmptySpace type="unrelated" max="-2" attributes="0"/>
                           <Component id="lbiva" min="-2" max="-2" attributes="0"/>
                           <EmptySpace min="-2" pref="25" max="-2" attributes="0"/>
                       </Group>
-                      <Group type="102" attributes="0">
-                          <EmptySpace min="-2" pref="99" max="-2" attributes="0"/>
-                          <Component id="btncobrar" min="-2" pref="938" max="-2" attributes="0"/>
-                          <EmptySpace min="0" pref="0" max="32767" attributes="0"/>
-                      </Group>
                       <Group type="102" alignment="0" attributes="0">
-                          <EmptySpace min="-2" pref="1182" max="-2" attributes="0"/>
+                          <EmptySpace min="-2" pref="892" max="-2" attributes="0"/>
                           <Component id="jLabel20" min="-2" max="-2" attributes="0"/>
                           <EmptySpace max="-2" attributes="0"/>
-                          <Component id="lbtotal" pref="42" max="32767" attributes="0"/>
+                          <Component id="lbtotal" max="32767" attributes="0"/>
                       </Group>
                   </Group>
-                  <EmptySpace min="-2" pref="174" max="-2" attributes="0"/>
+                  <EmptySpace min="-2" pref="270" max="-2" attributes="0"/>
               </Group>
               <Group type="102" attributes="0">
                   <Component id="jScrollPane3" min="-2" pref="1257" max="-2" attributes="0"/>
-                  <EmptySpace max="32767" attributes="0"/>
+                  <EmptySpace pref="268" max="32767" attributes="0"/>
               </Group>
           </Group>
         </DimensionLayout>
         <DimensionLayout dim="1">
           <Group type="103" groupAlignment="0" attributes="0">
               <Group type="102" attributes="0">
+                  <EmptySpace min="-2" pref="16" max="-2" attributes="0"/>
+                  <Group type="103" groupAlignment="3" attributes="0">
+                      <Component id="jLabel15" alignment="3" min="-2" max="-2" attributes="0"/>
+                      <Component id="lbsultimafacturacreada" alignment="3" min="-2" max="-2" attributes="0"/>
+                      <Component id="jLabel17" alignment="3" min="-2" max="-2" attributes="0"/>
+                      <Component id="btnelimnarresumenventa" alignment="3" min="-2" max="-2" attributes="0"/>
+                  </Group>
+                  <EmptySpace max="-2" attributes="0"/>
+                  <Component id="jScrollPane3" min="-2" pref="173" max="-2" attributes="0"/>
                   <Group type="103" groupAlignment="0" attributes="0">
                       <Group type="102" attributes="0">
-                          <EmptySpace min="-2" pref="16" max="-2" attributes="0"/>
-                          <Group type="103" groupAlignment="3" attributes="0">
-                              <Component id="jLabel15" alignment="3" min="-2" max="-2" attributes="0"/>
-                              <Component id="lbsultimafacturacreada" alignment="3" min="-2" max="-2" attributes="0"/>
-                              <Component id="jLabel17" alignment="3" min="-2" max="-2" attributes="0"/>
-                              <Component id="btnelimnarresumenventa" alignment="3" min="-2" max="-2" attributes="0"/>
-                          </Group>
-                          <EmptySpace max="-2" attributes="0"/>
-                          <Component id="jScrollPane3" min="-2" pref="173" max="-2" attributes="0"/>
                           <EmptySpace min="-2" pref="36" max="-2" attributes="0"/>
                           <Group type="103" groupAlignment="3" attributes="0">
                               <Component id="jLabel18" alignment="3" min="-2" max="-2" attributes="0"/>
                               <Component id="lbiva" alignment="3" min="-2" max="-2" attributes="0"/>
                           </Group>
+                          <EmptySpace type="separate" max="-2" attributes="0"/>
+                          <Group type="103" groupAlignment="3" attributes="0">
+                              <Component id="jLabel20" alignment="3" min="-2" max="-2" attributes="0"/>
+                              <Component id="lbtotal" alignment="3" min="-2" max="-2" attributes="0"/>
+                          </Group>
                       </Group>
-                      <Group type="102" alignment="0" attributes="0">
-                          <EmptySpace type="unrelated" max="-2" attributes="0"/>
-                          <Component id="btncobrar" min="-2" pref="37" max="-2" attributes="0"/>
+                      <Group type="102" alignment="1" attributes="0">
+                          <EmptySpace max="-2" attributes="0"/>
+                          <Component id="btncobrar" min="-2" pref="44" max="-2" attributes="0"/>
                       </Group>
-                  </Group>
-                  <EmptySpace type="separate" max="-2" attributes="0"/>
-                  <Group type="103" groupAlignment="3" attributes="0">
-                      <Component id="jLabel20" alignment="3" min="-2" max="-2" attributes="0"/>
-                      <Component id="lbtotal" alignment="3" min="-2" max="-2" attributes="0"/>
                   </Group>
                   <EmptySpace pref="42" max="32767" attributes="0"/>
               </Group>
